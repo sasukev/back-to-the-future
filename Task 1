@@ -1,0 +1,15 @@
+coins = input().split(',')
+heads=0
+tails=0
+for i in coins:
+    if i=="H":
+      heads+=1
+    elif i=="T":
+      tails+=1
+if heads > tails :
+    print("H winds!")
+elif tails>heads:
+    print("T wins!")
+else: 
+    print("Draw!")
+ 
